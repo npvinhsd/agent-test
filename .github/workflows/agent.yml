@@ -22,4 +22,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CENTER_REPOSITORY: npvinhsd/center-test
-          CENTER_GITHUB_TOKEN: ${{ secrests.CENTER_GITHUB_TOKEN }}
+          CENTER_GITHUB_TOKEN: ${{ secrets.CENTER_GITHUB_TOKEN }}
