@@ -13,6 +13,7 @@ jobs:
           repository: npvinhsd/center-test
           ref: develop
           fetch-depth: 0
+          token: ${{ secrets.CENTER_GITHUB_TOKEN }}
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
