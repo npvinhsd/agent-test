@@ -17,6 +17,6 @@ jobs:
         with:
           node-version: 12
       - name: tag
-        uses: npvinhsd/agent-changelog-action
+        uses: "npvinhsd/agent-changelog-action@main"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
